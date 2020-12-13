@@ -1,0 +1,6 @@
+# To run the program.
+cd JsonFormatter
+java -cp target/classes:target/classes/gson-2.8.6.jar JsonFormatUtils <json_file_name>
+
+# Example: java -cp target/classes:target/classes/gson-2.8.6.jar JsonFormatUtils /tmp/test1.json
+
