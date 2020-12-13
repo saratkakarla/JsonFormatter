@@ -4,3 +4,10 @@ java -cp target/classes:target/classes/gson-2.8.6.jar JsonFormatUtils <json_file
 
 # Example: java -cp target/classes:target/classes/gson-2.8.6.jar JsonFormatUtils /tmp/test1.json
 
+# TODO list:
+
+1. Present code is only for demonstration purposes, this may not work for the large json objects as they need more memory. 
+   To make it work with large objects Gson's TypeAdapter with JsonReader can be used.
+2. Add more +v and -ve tests to process various sizes of the JSON object
+
+
